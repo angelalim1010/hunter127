@@ -1,0 +1,9 @@
+#number = input()
+number = 12
+i = 2
+while i < number:
+    if number % i == 0:
+        print (i)
+    i = i + 1
+
+Answer: The number 3 will appear because i=2 so if you replace i with 2, you get 2+1 which is 3   
