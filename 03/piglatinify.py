@@ -5,3 +5,6 @@ def piglatin(word):
         return word + 'ay'
     else:
         return word[1:] + word[0] + 'ay'
+print (piglatin("apple"))
+print (piglatin("banana"))
+
