@@ -18,10 +18,8 @@ def encode_string(s,r):
 
 def full_encode(s):
     n = ''
-    for i in s:
-        if ord(i) >= 97 or ord(i) <= 122 or ord(i) >= 65 or ord(i) <= 90:
-            for r in range(1,27):
-                n = n + encode_string(s,r) + "\n"
+    for i in range(26):
+        n = n + encode_string(s,i) + "\n"
     return n
 
 print(full_encode("abcd"))
