@@ -58,7 +58,6 @@ def decode(s):
             dist= distance(real_stats, build_frequency_vector(encode_string(s,i)))
             position = encode_string(s,i)
     return position
-
 s = "this is a string"
 print ("encoded: ", encode_string(s,13), '\n')
 print ('decoded: ', decode(s))
