@@ -13,12 +13,12 @@ def min(l):
     return min
 
 def mode(l):
-    v =[]
+    f =[]
     for i in l:
-        v.append(freq(i, l))  
-    mode = v[i]
-    for i in v:
-        if mode < v[i]:
+        f.append(freq(i, l))  
+    mode = f[i]
+    for i in f:
+        if mode < f[i]:
             mode = l[i]
     return mode
 
