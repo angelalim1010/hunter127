@@ -17,7 +17,7 @@ def mode(l):
     for i in l:
         f.append(freq(i, l))  
     mode = f[i]
-    for i in f:
+    for i in range(1,len(f)):
         if mode < f[i]:
             mode = l[i]
     return mode
